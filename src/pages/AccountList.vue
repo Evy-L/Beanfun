@@ -3120,10 +3120,10 @@ onBeforeUnmount(() => {
 
 .account-list__list-body {
   overflow-y: auto;
-  padding: 0.5rem;
+  padding: 0.3rem;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.2rem;
   /*
    * #263: cap the visible rows. Keep --max-visible-rows in sync with
    * MAX_VISIBLE_ROWS constant in <script>. Each row is ~36px height +
