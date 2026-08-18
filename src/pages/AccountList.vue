@@ -322,7 +322,7 @@ const accountCount = computed(() => serviceAccounts.value.length)
  * #263: Maximum number of account rows visible before scrolling kicks in.
  * Keep in sync with the max-height calculation in .account-list__list-body CSS.
  */
-const MAX_VISIBLE_ROWS = 5
+const MAX_VISIBLE_ROWS = 32
 
 /*
  * #263: Show a floating scroll indicator when there are more accounts
