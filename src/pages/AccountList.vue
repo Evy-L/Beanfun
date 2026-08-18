@@ -3129,7 +3129,7 @@ onBeforeUnmount(() => {
    * MAX_VISIBLE_ROWS constant in <script>. Each row is ~36px height +
    * 0.25rem gap between rows + 1rem total padding (0.5rem top + bottom).
    */
-  --max-visible-rows: 5;
+  --max-visible-rows: 32;
   max-height: calc(var(--max-visible-rows) * 36px + (var(--max-visible-rows) - 1) * 0.25rem + 1rem);
 }
 
